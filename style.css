@@ -1,0 +1,125 @@
+html {
+    max-width: 80ch;
+    font-size: 1rem;
+    font-family: ui-monospace, monospace;
+}
+
+body {
+    margin: 0
+}
+h1,.px-1 {padding-left: 1rem; padding-right: 1rem}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+ol,
+ul {
+    padding-left: 2rem;
+}
+
+ol,
+ul,
+dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 576px) {
+    html {
+        padding: .5rem 0;
+        margin: auto;
+    }
+}
+
+hr {
+    margin: 1rem 0
+}
+
+
+pre {
+    padding: 0.5rem 1rem;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.25;
+    background-color: #f6f8fa;
+    border-radius: 6px;
+}
+
+.box,
+h2 {
+    padding: 1rem;
+    margin-bottom: 1rem
+}
+
+@media (min-width: 576px) {
+
+    .box,
+    h2 {
+        border-radius: 0.5rem;
+    }
+}
+
+blockquote {
+    background: rgba(0, 0, 0, .1);
+    padding: 0.5rem;
+    line-height: 1.2;
+    margin: 0 0 0 0.5rem;
+}
+
+html {
+    color: var(--color-fg-default);
+    background-color: var(--color-canvas-default);
+}
+
+.box,
+h2 {
+    background-color: var(--color-canvas-subtle)
+}
+
+a {
+    color: var(--color-accent-fg)
+}
+
+:root {
+    --color-canvas-subtle: #ffffff;
+    --color-canvas-default: #f0f2f5;
+    --color-fg-default: #24292f;
+    --color-accent-fg: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-canvas-subtle: #2d333b;
+        --color-canvas-default: #22272e;
+        --color-fg-default: #adbac7;
+        --color-accent-fg: #539bf5;
+    }
+
+    pre {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+.w100 {
+    display: block;
+    width: 100%
+}
+
+.mt-1 {
+    margin: .5rem 0
+}
+.mt-2 {
+    margin: 1rem 0
+}
+.pointer {cursor: pointer;}
+.larger {font-size: larger}
