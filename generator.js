@@ -7,7 +7,7 @@ const replaceDomainInput = document.getElementById("replace");
 let settings = {
     "autoCopy": false,
     "autoRedirect": true,
-    "replaceDomain": 'https://nitter.net/'
+    "replaceDomain": 'https://nitter.ca/'
 };
 
 replaceDomainInput.oninput = function () {
