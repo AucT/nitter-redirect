@@ -127,6 +127,8 @@ a {
 .mb-2 {
     margin-bottom: 1rem
 }
+.my-1 {margin-top: .5rem;margin-bottom: .5rem}
+.my-2 {margin-top: 1rem;margin-bottom: 1rem}
 .pointer {cursor: pointer;}
 .larger {font-size: larger}
 .xlarger {font-size: x-large}
